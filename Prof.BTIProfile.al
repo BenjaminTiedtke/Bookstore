@@ -1,4 +1,4 @@
-profile BTIProfile
+profile "BTIProfile"
 {
     Description = 'Test Profil in Schulung';
     RoleCenter = "Order Processor Role Center";

@@ -8,5 +8,4 @@ tableextension 50100 "Customer Book Extension" extends Customer
            TableRelation = Book;
         }
     }
-    
 }
