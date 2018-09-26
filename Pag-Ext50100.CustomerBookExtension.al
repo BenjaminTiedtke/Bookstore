@@ -11,15 +11,15 @@ pageextension 50100 "Customer Book Extension" extends "Customer Card"
                ApplicationArea = All; 
             }
         }
-        addlast(FactBoxes)
+        addbefore(Control149)
         {
-            part(CustomerBooks; "Book FactBox")
+            part(BooksFactBox; "Book FactBox")
             {
-                Caption = 'Customer Books';
+                Caption = 'Book Details';
                 SubPageLink = "No." = field("Favorite Book No.");
                 ApplicationArea = All;
             }
-        }
+        }        
     }
 
 }

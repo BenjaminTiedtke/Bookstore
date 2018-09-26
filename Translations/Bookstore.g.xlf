@@ -58,10 +58,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Book FactBox - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3214696 - Control 1933151842 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Customer Books</source>
+        <trans-unit id="PageExtension 3214696 - Control 1640268417 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Book Details</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Book Extension - Control CustomerBooks - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Book Extension - Control BooksFactBox - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3214696 - Field 150268382 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Favorite Book No.</source>
