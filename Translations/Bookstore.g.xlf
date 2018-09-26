@@ -53,6 +53,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Book List - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 3565700325 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Book List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Book List - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3565700325 - Control 1662973878 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show No. of Customers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Book List - Control ShowNoOfCust - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 4178469328 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Book FactBox</source>
           <note from="Developer" annotates="general" priority="2"></note>
