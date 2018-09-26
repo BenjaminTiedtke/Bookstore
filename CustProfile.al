@@ -1,4 +1,4 @@
-profile BTIProfile 
+profile BTIProfile
 {
     Description = 'Test Profil in Schulung';
     RoleCenter = "Order Processor Role Center";
@@ -7,35 +7,35 @@ profile BTIProfile
 
 pagecustomization BTICustomerListCustomization customizes "Customer List"
 {
-   layout
-   {
-       modify("Location Code")
-       {
-           Visible = false;
+    layout
+    {
+        modify("Location Code")
+        {
+            Visible = false;
 
-       }
-   }
+        }
+    }
     actions
     {
         moveafter(NewSalesOrder; NewSalesInvoice)
-        
+
     }
-    
+
     //Variables, procedures and triggers are not allowed on Page Customizations
 }
 
 pagecustomization BTICustomerCardCustomization customizes "Customer Card"
 {
-   layout
-   {
-       modify("Location Code")
-       {
-           Visible = false;
+    layout
+    {
+        modify("Location Code")
+        {
+            Visible = false;
 
-       }
-   }
+        }
+    }
     actions
     {
-        moveafter(NewSalesOrder; NewSalesInvoice)       
+        moveafter(NewSalesOrder; NewSalesInvoice)
     }
 }
