@@ -32,10 +32,6 @@ page 50100 "Book Card"
                 {
                     ApplicationArea = All;
                 }
-                field(Testfield;Testfield)
-                {
-                    ApplicationArea = All;
-                }
             }
         }
     }
