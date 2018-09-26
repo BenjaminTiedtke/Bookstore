@@ -26,6 +26,12 @@ table 50100 "Book"
         {
             Caption = 'Page Count';
         }
+
+        field(6; "Testfield"; Boolean)
+        {
+           Caption = 'Test';
+        }
+        
     }
     
     keys
