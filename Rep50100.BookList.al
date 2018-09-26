@@ -38,12 +38,15 @@ report 50100 "Book List"
     
     requestpage
     {
+        SaveValues = true;
+
         layout
         {
             area(content)
             {
-                group(General)
+                group(Options)
                 {
+                    Caption = 'Options';
                     field(ShowNoOfCust; ShowCounter)
                     {
                         ApplicationArea = All;
@@ -53,6 +56,11 @@ report 50100 "Book List"
             }
         }
     }
+
+    trigger OnInitReport()
+    begin
+        ShowCounter := true;
+    end;
 
     var
         ShowCounter: Boolean;
