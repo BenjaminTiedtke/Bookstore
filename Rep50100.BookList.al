@@ -57,6 +57,12 @@ report 50100 "Book List"
         }
     }
 
+    labels
+    {
+        TitelLbl = 'Titel Label';
+        PageCount = 'Page {0} / {1}';
+    }
+
     trigger OnInitReport()
     begin
         ShowCounter := true;

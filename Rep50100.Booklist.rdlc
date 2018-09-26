@@ -884,6 +884,24 @@
     </ReportSection>
   </ReportSections>
   <ReportParameters>
+    <ReportParameter Name="TitelLbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>TitelLbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>TitelLbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="PageCount">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>PageCount</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>PageCount</Prompt>
+    </ReportParameter>
     <ReportParameter Name="No_BookCaption">
       <DataType>String</DataType>
       <DefaultValue>
@@ -942,36 +960,46 @@
   <ReportParametersLayout>
     <GridLayoutDefinition>
       <NumberOfColumns>1</NumberOfColumns>
-      <NumberOfRows>6</NumberOfRows>
+      <NumberOfRows>8</NumberOfRows>
       <CellDefinitions>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>0</RowIndex>
-          <ParameterName>No_BookCaption</ParameterName>
+          <ParameterName>TitelLbl</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>1</RowIndex>
-          <ParameterName>Title_BookCaption</ParameterName>
+          <ParameterName>PageCount</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>2</RowIndex>
-          <ParameterName>Autor_BookCaption</ParameterName>
+          <ParameterName>No_BookCaption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>3</RowIndex>
-          <ParameterName>Page_Count_BookCaption</ParameterName>
+          <ParameterName>Title_BookCaption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>4</RowIndex>
-          <ParameterName>Hardcover_BookCaption</ParameterName>
+          <ParameterName>Autor_BookCaption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>5</RowIndex>
+          <ParameterName>Page_Count_BookCaption</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>6</RowIndex>
+          <ParameterName>Hardcover_BookCaption</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>7</RowIndex>
           <ParameterName>No__of_Customers_BookCaption</ParameterName>
         </CellDefinition>
       </CellDefinitions>
